@@ -1,7 +1,5 @@
 import { useRouter } from 'next/router';
 
-export default function Login(props: Props) {
-  const router = useRouter()
 
   const returnTo = Array.isArray(router.query.returnTo)
   ? router.query.returnTo[0]
